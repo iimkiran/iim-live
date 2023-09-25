@@ -1,0 +1,15 @@
+.footer-container {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+}
+
+@media (max-width:1000px) {
+    .footer-container {
+        margin-top: 50%;
+    }
+}

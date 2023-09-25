@@ -1,0 +1,110 @@
+.header-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5% 0;
+    height: 70vh;
+}
+
+.header-child1 {
+    display: grid;
+    justify-content: left;
+    width: 50vw;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: fantasy;
+    font-style: bold;
+    padding: 0;
+    margin: 0;
+}
+
+
+.message-container {
+    position: relative;
+    text-align: left;
+    width: inherit;
+    display: grid;
+    justify-content: left;
+    height: fit-content;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-child2 {
+    width: 50vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.uc-image {
+    width: 45vw;
+    height: fit-content;
+}
+
+.company-container {
+    position: relative;
+    bottom: 10%;
+    margin-top: 10%;
+    height: fit-content;
+    display: grid;
+    justify-content: left;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.plan {
+    color: red;
+    font-family: fantasy;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.message {
+    font-size: 40px;
+}
+
+@media (max-width:1000px) {
+    .header-container {
+        display: grid;
+    }
+
+    .header-child1,
+    .header-child2 {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .uc-image {
+        width: 100vw;
+    }
+
+    .company-container {
+        margin-top: 10%;
+        height: fit-content;
+        display: grid;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .message-container {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:400px) {
+    .message {
+        font-size: 20px;
+    }
+}

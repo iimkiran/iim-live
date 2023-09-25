@@ -1,0 +1,38 @@
+.nav-container {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(130, 201, 225);
+}
+
+.logo-container,
+.menu-container {
+    width: 50vw;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.menu-container {
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+a {
+    padding: 0 10px;
+}
+
+.links {
+    color: white;
+}
